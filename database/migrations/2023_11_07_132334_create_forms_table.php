@@ -15,7 +15,6 @@ return new class extends Migration
             $table->char('cv_path', 255); 
             $table->timestamps();
 
-           
         });
     }
     
