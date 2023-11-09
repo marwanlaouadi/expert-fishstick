@@ -11,12 +11,11 @@ return new class extends Migration
     {
         Schema::create('forms', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('postulations_id');
             $table->text('questions');
             $table->char('cv_path', 255); 
             $table->timestamps();
 
-            $table->foreign('postulations_id')->references('id')->on('postulations');
+           
         });
     }
     
