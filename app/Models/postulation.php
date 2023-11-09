@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class postulation extends Model
+class Postulation extends Model
 {
     use HasFactory;
 }
