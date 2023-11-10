@@ -22,3 +22,11 @@ class AppServiceProvider extends ServiceProvider
         //
     }
 }
+class RouteServiceProvider extends ServiceProvider
+{
+    // ...
+
+    public const admin = '/admin/dashboard'; // يمكن تغيير المسار حسب الحاجة
+
+    // ...
+}
