@@ -17,4 +17,6 @@ class ServiceConcerned extends Model
         'Email',
         'Phone_Number',
     ];
+    
 }
+
