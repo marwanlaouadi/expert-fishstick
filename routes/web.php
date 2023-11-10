@@ -1,4 +1,26 @@
 <?php
+// routes/web.php
+
+Route::get('/', function () {
+    return view('layout');
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//============================= Admin Auth =============================
 
 use Illuminate\Support\Facades\Route;
 
@@ -16,4 +38,7 @@ Route::prefix('admin')->group(function () {
     Route::get('register', [RegisterController::class, 'showRegistrationForm'])->name('admin.register');
     Route::post('register', [RegisterController::class, 'register'])->name('admin.register');
     // يمكنك إضافة المزيد من الطرق هنا
-});
+}
+);
+
+//=============================End Admin Auth =============================
