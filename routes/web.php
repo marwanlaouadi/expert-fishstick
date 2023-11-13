@@ -1,14 +1,10 @@
 <?php
+
 Route::get('/', function () {
     return view('Layout');
 });
 
 
-
-
-Route::get('/myurl', function () {
-    return view('myview');
-});
 
 
 
