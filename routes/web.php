@@ -1,14 +1,14 @@
 <?php
-// routes/web.php
-
 Route::get('/', function () {
-    return view('layout');
+    return view('Layout');
 });
 
 
 
 
-
+Route::get('/myurl', function () {
+    return view('myview');
+});
 
 
 
